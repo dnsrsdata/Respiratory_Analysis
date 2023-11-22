@@ -32,7 +32,7 @@ Por último, é necessário que os achados sejam resumidos em slides para avalia
 
 Os dados incluem:
 
-INFLUD23-16-10-2023: dados sobre os atendimentos de SRAG, como data de
+- INFLUD23-16-10-2023: dados sobre os atendimentos de SRAG, como data de
 atendimento, data de nascimento, sexo, etc.
 
 ### Métricas de avaliação
