@@ -43,7 +43,9 @@ como o objetivo é identificar doenças respiratórias graves, como a COVID-19
 e a gripe, é importante que o modelo não cometa tais erros, pois, nesse caso
 o paciente pode não receber o tratamento adequado.
 
-Outras métricas que serão avaliadas são o **F1 Score** e o **Recall**.
+Entretanto, caso o modelo não apresente uma Log Loss significante, outras
+métricas como o **F1 Score** e o **Recall** serão incluídas na avaliação para
+uma análise mais robusta de desempenho.
 
 ### Melhorias
 
@@ -78,6 +80,8 @@ pip install -r requirements.txt
     - images
     |- reports
     | |- INFLUD23-16-10-2023.html   # Relatório gerado pelo pandas profiling
+    |- acertos_influenza.png  # Gráfico de waffle mostrando a taxa de acerto/erro do modelo para a classe influenza
+    |- acertos_nao_covid_influenza.png  # Gráfico de waffle mostrando a taxa de acerto/erro do modelo para as classes que não são COVID-19 e influenza
     |- banner.png  # Banner utilizado no notebook da EDA
     |- funnel_internados_obitos_ppt.png  # Gráfico de funil sobre internações usado no ppt
     |- funnel_internados_obitos.png  # Gráfico de funil sobre internações usado no notebook da EDA
@@ -85,6 +89,7 @@ pip install -r requirements.txt
     |- maiores_agentes_causadores_obito.png  # Gráfico de barras sobre os maiores agentes causadores de óbito usado no notebook da EDA
     |- media_idade_obitos.png  # Indicador mostrando a média de idade dos pacientes que foram à óbito
     |- numero_de_casos.png  # Indicador mostrando o número de casos de SRAG
+    |- previsao_recall_e_acertos_covid_ppt.png  # Gráfico de waffle mostrando a taxa de acerto/erro do modelo para a classe Covid e o acerto em geral
     |- principais_agentes_ppt.png  # Gráfico de barras sobre os principais agentes causadores de SRAG usado no ppt    
     |- principais_agentes.png  # Gráfico de barras sobre os principais agentes causadores de SRAG usado no notebook da EDA
     |
