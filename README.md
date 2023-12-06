@@ -98,7 +98,8 @@ pip install -r requirements.txt
     |- model_experimentation.ipynb  # Notebook contendo os experimentos com os modelos
     |
     - relatorio
-    |- SRAGS.pdf  # Relatório em ppt usado para apresentar os achados 
+    |- SRAGS_Analise_De_Dados.pdf  # Relatório em ppt usado para apresentar os achados da exploração inicial
+    |- SRAGS_Resultados_Modelo.pdf  # Relatório em ppt usado para apresentar o resultado do modelo 
     |
     - README.md  # Arquivo contando informações do projeto
     - requirements.txt # Arquivo contendo as dependências do projeto
@@ -112,3 +113,5 @@ COVID-19 e a gripe, é importante que o modelo não cometa muitos erros, pois
 um diagnóstico errôneo pode levar a um tratamento inadequado. Além disso, certas
 doenças são altamente contagiosas, e um diagnóstico errado pode levar a uma
 maior disseminação da doença.
+
+Para um melhor detalhamento dos resultados, recomendo ver os PPT's na pasta relatórios.
